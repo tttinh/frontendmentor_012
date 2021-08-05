@@ -1,6 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url(./utilities.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  /* background-color: var(--clr-intro); */
+  /* background-image: url('images/bg-curvy-desktop.svg'); */
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+.navbar {
+  padding: 3rem 0;
+  background-color: var(--clr-intro);
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar li {
+  margin: 0 2rem;
+}
+
+/* INTRO */
+.intro {
+  background-color: var(--clr-intro);
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 14rem;
+}
+
+.intro h1 {
+  margin: 1em 0;
+  max-width: 700px;
+}
+
+.intro p {
+  max-width: 550px;
+}
+
+.intro .btn {
+  width: 250px;
+  margin-top: 2rem;
+}

@@ -32,6 +32,12 @@
   place-items: center;
 }
 
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
 /* BUTTON */
 .btn {
   font-family: 'Raleway', sans-serif;
@@ -49,13 +55,11 @@
 }
 
 .txt-title {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
 }
 
 .txt-lead {
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
 }

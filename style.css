@@ -85,3 +85,32 @@ ul {
 .features__item p {
   max-width: 356px;
 }
+
+/* PRODUCTIVE */
+.productive {
+  padding-top: 8rem;
+  background-color: var(--clr-main);
+}
+
+.productive img {
+  padding-right: 3rem;
+}
+
+.productive__text > * {
+  margin-bottom: 1rem;
+}
+
+.productive__link {
+  color: var(--clr-cyan);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--clr-cyan);
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background-image: url("images/icon-arrow.svg");
+  background-repeat: no-repeat;
+}

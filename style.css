@@ -180,7 +180,7 @@ img {
 
 /* EARLY ACCESS */
 .early-access {
-  padding-top: 8rem;
+  padding: 8rem 0;
   background-color: var(--clr-main);
 }
 
@@ -190,6 +190,7 @@ img {
 
 .action-card {
   position: absolute;
+  top: 0;
   padding: 2rem 4rem;
   max-width: 800px;
   background-color: var(--clr-intro);
@@ -199,6 +200,30 @@ img {
 
 .action-card p {
   margin: 2rem 0;
+}
+
+::placeholder {
+  opacity: 0.8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  opacity: 0.8;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  opacity: 0.8;
+}
+
+.search-input {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 25px;
+  min-width: 420px;
+  margin-right: 2rem;
 }
 
 /* FOOTER */
